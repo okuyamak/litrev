@@ -1,0 +1,181 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.27)  20 FEB 2019 01:27
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**littreview.tex
+(./littreview.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(./littreview.aux)
+\openout1 = `littreview.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 9.
+ (./littreview.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `littreview.toc'.
+
+ [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+
+Overfull \hbox (9.13124pt too wide) in paragraph at lines 64--65
+[]\OT1/cmr/m/n/10 Time-invariate: age, sex, race, and ed-u-ca-tion. Time-varyin
+g:
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+[4]
+Overfull \hbox (19.00085pt too wide) in paragraph at lines 128--129
+\OT1/cmr/m/n/10 bor-hood avail-abil-ity of po-ten-tially health-promoting and h
+ealth-damaging
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Overfull \hbox (69.78412pt too wide) in paragraph at lines 135--136
+\OT1/cmr/m/n/10 This study aimed to iden-tify whether neigh-bor-hood health-dam
+ageing/promoting
+ []
+
+[5]
+Overfull \hbox (0.86139pt too wide) in paragraph at lines 149--150
+[]\OT1/cmr/m/n/10 Multilevel anal-y-sis by con-trol-ling both in-di-vid-ual and
+ neigh-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+
+Overfull \hbox (1.26091pt too wide) in paragraph at lines 165--166
+[]\OT1/cmr/m/n/10 Multilevel lo-gis-tic re-gres-sion with in-di-vid-u-als neste
+d
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+Overfull \hbox (5.00613pt too wide) in paragraph at lines 207--208
+[]\OT1/cmr/m/n/10 Other fac-tors: na-tional wealth, gov-ern-ment pol-icy, cul-t
+ural norms,
+ []
+
+
+Overfull \hbox (5.76999pt too wide) in paragraph at lines 212--213
+[]\OT1/cmr/m/n/10 Goverment is the main ac-tor for obe-sity pre-ven-tion.Obesit
+y mainly
+ []
+
+[8] (./littreview.aux) ) 
+Here is how much of TeX's memory you used:
+ 252 strings out of 492649
+ 2870 string characters out of 6129621
+ 63838 words of memory out of 5000000
+ 4204 multiletter control sequences out of 15000+600000
+ 7895 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 23i,6n,19p,603b,289s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb>
+Output written on littreview.pdf (9 pages, 101163 bytes).
+PDF statistics:
+ 58 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
