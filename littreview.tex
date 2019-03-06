@@ -1,4 +1,12 @@
 \documentclass{article}
+\usepackage{pdflscape}
+\usepackage{afterpage}
+\usepackage{capt-of}
+\usepackage{booktabs}
+\usepackage{tabulary}
+\usepackage{rotating}	
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+
 
 \title{Litterature review by topic}
 \author{Kenta Okuyama}
@@ -11,9 +19,73 @@
 \newpage
 \pagenumbering{arabic}
 
+\section{Summary table of literature review}
+Next page will have summary table for literature reviews by topic.
+
+\newpage
+		\begin{landscape}
+			\centering
+ 			\begin{tabulary}{1.0\textwidth}{ l l l l l }
+			\hline \hline
+			Methods & Findings & Significance &  Limitations & Future implication \\
+			\midrule
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			mason2018associations\\
+			\tabitem Cross-sectional & \tabitem PA++ Food ++ & \tabitem Large cohort & \tabitem Cross-sectional & \tabitem Longitudinal \\
+			\tabitem BMI, waist, weight & \tabitem High income group++ & \tabitem Sensitivity analysis++ & \tabitem Mediator & \tabitem Account for mediator \\
+			\tabitem Food and PA enviornment &  &  &  & \\
+			\tabitem Income and gender stratified  &  &  &  & \\
+			\hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			barrientos2017neighborhood\\
+			\tabitem Longitudinal & \tabitem PA++ Food ++ & \tabitem Longitudinal NE change & \tabitem Lack NDI & \tabitem Longitudinal \\
+			\tabitem BMI & \tabitem Overweight, obese & \tabitem objective/subjective  & \tabitem Mediator & \tabitem Account for mediator \\
+			\tabitem Food and PA enviornment &  &  &  & \\
+			\tabitem Time-varying/invarying  &  &  &  & \\
+			\hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			hirsch2014change\\
+			\tabitem Longitudinal & \tabitem Distance to bus+ & \tabitem Longitudinal NE change & \tabitem Lack NDI & \tabitem Longitudinal \\
+			\tabitem Walk rec/tran & \tabitem Social destination++ & \tabitem Longitudinal walk change & \tabitem Mediator & \tabitem Account for mediator \\
+			\tabitem Population density & \tabitem Walking destination++ &  &  & \\
+			\tabitem Retail/residential area  &  &  &  & \\
+			\tabitem Social/walking destinations  &  &  &  & \\
+			\tabitem Bus stops/street network  &  &  &  & \\
+
+			\hline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			kawakami2011health
+			\tabitem CHD incidence & \tabitem Food environment+ & \tabitem Multilevel longitudinal & \tabitem 2 years followup & \tabitem Longitudinal \\
+			\tabitem Fast food, pubs & \tabitem PA environment- & \tabitem  & \tabitem Administrative boundary & \tabitem Account for mediator \\
+			\tabitem Gym, healthcare & \tabitem NDI+++ &  &  & \\
+
+			\hline
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			
+			\tabitem CHD incidence & \tabitem Food environment+ & \tabitem Multilevel longitudinal & \tabitem 2 years followup & \tabitem Longitudinal \\
+			\tabitem Fast food, pubs & \tabitem PA environment- & \tabitem  & \tabitem Administrative boundary & \tabitem Account for mediator \\
+			\tabitem Gym, healthcare & \tabitem NDI+++ &  &  & \\
+
+			\hline
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			\bottomrule
+			\end{tabulary}
+			\captionof{table}{Summary table for lit review: + indicates the degree of associaiton}
+		\end{landscape}
+
+
+
+
+
+
+
+\newpage
 \section{Neighborhood environments and obesity}
-
-
 \subsection{References about physical environment}
 
 \begin{itemize}
@@ -34,7 +106,7 @@
 				\end{itemize}
     		\end{description}
 
-	\vspace{5mm}
+\newpage
 	\item {\bf Mason (2018) -- 40-69 years old -- Cross sectional study}
 		\begin{description}
 			\item[Setting] 22 UK Biobank assessment centers
@@ -55,7 +127,7 @@
     				\end{itemize}	
 		\end{description}
 
-	\vspace{5mm}
+\newpage
 	\item{\bf Hirsch (2014) -- 45-84 years old -- Prospective cohort} 
 		\begin{description}
 			\item[Setting] 6 US urban cities
@@ -74,7 +146,7 @@
 			
 		\end{description}
 
-	\vspace{5mm}
+\newpage
 \item{\bf Sallis(1998) -- 7 studies  -- Review} 
 		\begin{description}
 			\item[Setting] NA 
@@ -93,9 +165,7 @@
 			
 		\end{description}
 
-	\vspace{5mm}
-
-
+\newpage
 \item{\bf Ng(2014) -- 183 countries -- Systematic analysis} 
 		\begin{description}
 			\item[Setting] Worldwide 
@@ -117,7 +187,7 @@
 			
 		\end{description}
 		
-	\vspace{5mm}
+\newpage
 \item{\bf Kawakami(2011) -- 35-80 years  -- Prospective cohort} 
 		\begin{description}
 			\item[Setting] Sweden
@@ -137,8 +207,7 @@
 			
 		\end{description}
 
-	\vspace{5mm}
-
+\newpage
 \item{\bf Hamano(2017) -- 0-14 years  -- Prospective cohort} 
 		\begin{description}
 			\item[Setting] Sweden
@@ -155,7 +224,7 @@
 			
 		\end{description}
 
-
+\newpage
 \item{\bf Sundquist(2014) -- Unknown  -- Prospective cohort} 
 		\begin{description}
 			\item[Setting] Sweden - Stockholm 
@@ -174,6 +243,7 @@
 			
 		\end{description}
 
+\newpage
 \item{\bf Sundquist(2011) -- 20-65 years  -- Cross-sectional study}
 		\begin{description}
 			\item[Setting] Sweden - Stockholm 
@@ -191,7 +261,7 @@
 			
 		\end{description}
 
-
+\newpage
 \item{\bf Gortmaker(2011) -- NA  -- Review} 
 		\begin{description}
 			\item[Setting] Australia, US 
@@ -215,6 +285,7 @@
 			
 		\end{description}
 
+\newpage
 \item{\bf Do(2018) -- 45-84 years  -- Longitudinal study}
 		\begin{description}
 			\item[Setting] US 6 cities
@@ -230,7 +301,48 @@
 					\item[$\clubsuit$] Black segregation is associated with incresed mortality risk and adverse birth outcome, while Hispanic segregation is associated with stronger social cohesion, and protective against dicrimination and adoption of harmful behaviors.
 					\item[$\clubsuit$] Higher segregation was negatively associated with BMI for white females and positively associated for Hispanic females in cross-secitonal analysis. In longitudinal analysis, higher segregation was positively associated with BMI for black females, but negatively associated for Hispanic females and males.
 				\end{itemize} 
-			
+		\end{description}
+
+\newpage
+\item{\bf Stafford(2007) -- 16-65+ years -- Cross-sectional study}
+		\begin{description}
+			\item[Setting] England and Scotland 
+			\item[Outcome] BMI, Waist hip ratio 
+			\item[Exposure] Crime, Policing, Physical dereliction, Highs street services, Leisure centres, Urban sprawl, Supermarkets, Fast-food outlets, Social disorder, Physical activity 
+			\item[Confounders] Gender, Age, Occupation 
+			\item[Statistical analysis] Structural Equasion model
+			\item[Significance] First study to assess the causal path of modifiable neighborhood determinants to obesity.
+			\item[Conclusion] Neighborhood disorders (e.g. crime, pilicing) and high street facilities were singnificantly associated with obesity. 
+			\item[Takeaways] 
+				\begin{itemize}
+					\item[$\clubsuit$] Neighborhood deprivation is related to morbidity, although relationship is weaker and smaller in magnitude than the relationships between individual SES and morbidity.
+					\item[$\clubsuit$] It is important to unpack the "black box" on why, what kind of modifiable factors lie in the causal path. 
+				\end{itemize} 
+		\end{description}
+
+\newpage
+\item{\bf Mckenbach(2014) -- NA -- Systematic review}
+		\begin{description}
+			\item[Setting] 
+			\item[Outcome] 
+			\item[Exposure] 
+			\item[Confounders] 
+			\item[Statistical analysis] 
+			\item[Significance] Updated review of physical environment and obesity among adults focusing on high income countries. It distinguished the studies based on methodological quality, and made robust comparison.
+			\item[Conclusion] Urban sprawl and land use mix were found to be associated with weight status only in North America. 
+			\item[Takeaways] 
+				\begin{itemize}
+					\item[$\clubsuit$] Genetic factors underlie the propensity of individuals to become obese, but the rapid growth of obesity is hypothesized to be attributed from social and environmental causes. 
+					\item[$\clubsuit$] There are heterogeneity of methods for measuring physical activity environments across continents. These should be addressed for future studies. 
+				\end{itemize} 
+		\end{description}
+
+
+
+
+
+
+
 
 
 
@@ -239,13 +351,62 @@
 \subsection{References about social environment}
 
 \begin{itemize}
+\item{\bf Coll-Planas(2016) -- >=60 years, 36 trials  -- Systematic review} 
+		\begin{description}
+			\item[Setting] NA 
+			\item[Outcome] NA 
+			\item[Exposure] NA
+			\item[Confounders] NA
+			\item[Statistical analysis] NA
+			\item[Significance] First systematic review encompasses both mental and physical health of clinical interventions limited to randomized controll trial.
+			\item[Conclusion] Social capital might promote general health of population, butmore high-quality research are needed.
+			\item[Takeaways] \mbox{}\\
+				\begin{itemize}
+					\item[$\clubsuit$] Social capital is an umbrella concept - Structual (objective aspect): social networks, social contacts and participation belonging. Cognitive (subjective): social support, sense of belonging and trust. Itcan be further devided into - Bonding (ties in homogeenous group), Bridging (ties between hetrogeneous group), Linking (ties between people with unequal wealth, power and status).
+				\end{itemize} 
+		
+		\end{description}
+\newpage
 
-    \item Some name (1902) -- 300 adults -- Furniture store
+\item{\bf Ehsan(2015) -- 39 studies  -- Systematic review} 
+		\begin{description}
+			\item[Setting] NA 
+			\item[Outcome] NA 
+			\item[Exposure] NA
+			\item[Confounders] NA
+			\item[Statistical analysis] NA
+			\item[Significance] After 2005, more research have been done both cross-sectionally and longitudinally on the association between SC and mental health. This study updates the review of recent findings. 
+			\item[Conclusion] Common mental disorders were associeted with individual cognitive SC. 
+			\item[Takeaways] \mbox{}\\
+				\begin{itemize}
+					\item[$\clubsuit$] The association between social determinants, such as low-ses, unemploynment, low educational attainment and negative health concequences are well established. - Social capital can extend the concept of social deteminants by including quantity and quality of social relationships.
+					\item[$\clubsuit$] The association between "cognitive" SC and mental health was found in te systematic review by De Silva et al. 2005. 
+
+				\end{itemize} 
+		
+		\end{description}
+
+\newpage
+\item{\bf McNeill(2006) --   -- Systematic review} 
+		\begin{description}
+			\item[Setting] NA 
+			\item[Outcome] NA 
+			\item[Exposure] NA
+			\item[Confounders] NA
+			\item[Statistical analysis] NA
+			\item[Significance] Conceptualizing social envioronment by defining each component related to physical activity. Inconsistent terminology is often used for defining social environment, so conceptualizing is critical to facilitate further high quality studies.
+			\item[Conclusion] 
+			\item[Takeaways] \mbox{}\\
+				\begin{itemize}
+					\item[$\clubsuit$] Environmental and individual factors shape simultaneously behavior based on social-cognitive theory.
+					\item[$\clubsuit$]
+
+				\end{itemize} 
+		\end{description}
 
 
 
 
-	\item 
 
 \end{itemize}
 
