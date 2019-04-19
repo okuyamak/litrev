@@ -1,16 +1,15 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.10.27)  5 MAR 2019 19:36
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.4.8)  11 APR 2019 16:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **littreview.tex
 (./littreview.tex
-pLaTeX2e <2018-04-01>+1 (based on LaTeX2e <2018-04-01> patch level 2)
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+pLaTeX2e <2018-12-01> (based on LaTeX2e <2018-12-01>)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count83
 \c@section=\count84
@@ -38,7 +37,7 @@ Package graphics Info: Driver file: dvips.def on input line 99.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvips.def
 File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 ))) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
@@ -52,8 +51,8 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 ))) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks15
-\AP@partial=\box42
-\AP@footins=\box43
+\AP@partial=\box43
+\AP@footins=\box44
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/capt-of/capt-of.sty
 Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -78,50 +77,68 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/tabulary/tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
-Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen132
-\ar@mcellbox=\box44
+\ar@mcellbox=\box45
 \extrarowheight=\dimen133
 \NC@list=\toks16
 \extratabsurround=\skip43
 \backup@length=\skip44
-\ar@cellbox=\box45
+\ar@cellbox=\box46
 )
 \TY@count=\count95
 \TY@linewidth=\dimen134
 \tymin=\dimen135
 \tymax=\dimen136
 \TY@tablewidth=\dimen137
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\Gin@req@height=\dimen138
+\Gin@req@width=\dimen139
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count96
+\rotFPtop=\skip45
+\rotFPbot=\skip46
+\rot@float@box=\box47
+\rot@mess@toks=\toks18
 ) (./littreview.aux)
 \openout1 = `littreview.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-\AtBeginShipoutBox=\box46
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+\AtBeginShipoutBox=\box48
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 16.
+(Font)              <12> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 16.
+(Font)              <8> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 16.
+(Font)              <6> on input line 17.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 17.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 17.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 18.
  (./littreview.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
@@ -138,18 +155,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 ] [1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 77.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
 
 
-Package tabulary Warning: No suitable columns! on input line 76.
+Package tabulary Warning: No suitable columns! on input line 77.
 
 
-Overfull \hbox (154.3901pt too wide) in paragraph at lines 76--77
+Overfull \hbox (154.3901pt too wide) in paragraph at lines 77--78
  [][] 
  []
 
@@ -157,64 +174,64 @@ Overfull \hbox (154.3901pt too wide) in paragraph at lines 76--77
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 90.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 90.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 89.
  [3
 
-]
-Overfull \hbox (9.13124pt too wide) in paragraph at lines 137--138
+] [4] [5] [6]
+Overfull \hbox (9.13124pt too wide) in paragraph at lines 178--179
 []\OT1/cmr/m/n/10 Time-invariate: age, sex, race, and ed-u-ca-tion. Time-varying:
  []
 
-[4] [5] [6]
-Overfull \hbox (19.00085pt too wide) in paragraph at lines 201--202
+[7] [8] [9]
+Overfull \hbox (19.00085pt too wide) in paragraph at lines 240--241
 \OT1/cmr/m/n/10 bor-hood avail-abil-ity of po-ten-tially health-promoting and health-damaging
  []
 
 
-Overfull \hbox (69.78412pt too wide) in paragraph at lines 208--209
+Overfull \hbox (69.78412pt too wide) in paragraph at lines 247--248
 \OT1/cmr/m/n/10 This study aimed to iden-tify whether neigh-bor-hood health-damageing/promoting
  []
 
-[7]
-Overfull \hbox (0.86139pt too wide) in paragraph at lines 222--223
+[10]
+Overfull \hbox (0.86139pt too wide) in paragraph at lines 260--261
 []\OT1/cmr/m/n/10 Multilevel anal-y-sis by con-trol-ling both in-di-vid-ual and neigh-
  []
 
-
-Overfull \hbox (1.26091pt too wide) in paragraph at lines 238--239
+[11]
+Overfull \hbox (1.26091pt too wide) in paragraph at lines 276--277
 []\OT1/cmr/m/n/10 Multilevel lo-gis-tic re-gres-sion with in-di-vid-u-als nested
  []
 
-[8] [9]
-Overfull \hbox (5.00613pt too wide) in paragraph at lines 280--281
+[12] [13]
+Overfull \hbox (5.00613pt too wide) in paragraph at lines 319--320
 []\OT1/cmr/m/n/10 Other fac-tors: na-tional wealth, gov-ern-ment pol-icy, cul-tural norms,
  []
 
 
-Overfull \hbox (5.76999pt too wide) in paragraph at lines 285--286
+Overfull \hbox (5.76999pt too wide) in paragraph at lines 324--325
 []\OT1/cmr/m/n/10 Goverment is the main ac-tor for obe-sity pre-ven-tion.Obesity mainly
  []
 
-[10]
-Overfull \hbox (2.36137pt too wide) in paragraph at lines 298--299
+[14]
+Overfull \hbox (2.36137pt too wide) in paragraph at lines 338--339
 []\OT1/cmr/m/n/10 Longitudinal anal-y-sis for racial/ethnic seg-re-ga-tion and BMI.
  []
 
-[11]
-Overfull \hbox (15.75014pt too wide) in paragraph at lines 354--355
+[15] [16] [17] [18] [19]
+Overfull \hbox (15.75014pt too wide) in paragraph at lines 444--445
 []\OT1/cmr/m/n/10 After 2005, more re-search have been done both cross-sectionally
  []
 
-[12] [13] (./littreview.aux) ) 
+[20] [21] (./littreview.aux) ) 
 Here is how much of TeX's memory you used:
- 1023 strings out of 493281
- 14332 string characters out of 6145040
- 86190 words of memory out of 5000000
- 4967 multiletter control sequences out of 15000+600000
+ 1230 strings out of 493226
+ 17194 string characters out of 6144096
+ 90850 words of memory out of 5000000
+ 5214 multiletter control sequences out of 15000+600000
  13155 words of font info for 51 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,7n,21p,603b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,7n,21p,603b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on littreview.dvi (14 pages, 36020 bytes).
+Output written on littreview.dvi (22 pages, 42244 bytes).

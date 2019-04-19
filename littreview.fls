@@ -1,4 +1,4 @@
-PWD /Users/okuyamakenta/Dropbox/litrev
+PWD /home/kenta/Dropbox/litrev
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf.cnf
@@ -41,6 +41,14 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tabulary/tabulary.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tabulary/tabulary.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/rotating.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/rotating.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 INPUT littreview.aux
 INPUT littreview.aux
 OUTPUT littreview.aux
