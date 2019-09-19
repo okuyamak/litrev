@@ -2,13 +2,16 @@
 %\usepackage{pdflscape}
 %\usepackage{afterpage}
 %\usepackage{capt-of}
-%\usepackage{booktabs}
+\usepackage{booktabs}
 %\usepackage{tabulary}
 %\usepackage{rotating}	
 %\newcommand{\tabitem}{~~\llap{\textbullet}~~}
 \usepackage{longtable}
+\usepackage{array} % to call magic m
+\usepackage{enumitem} % to remove vertical space for itemize
 \usepackage{geometry}
 \geometry{a4paper, landscape, margin=0.5in}
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
 
 \title{Litterature review by topic}
 \author{Kenta Okuyama}
@@ -23,67 +26,69 @@
 \section{Summary table of literature review}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Table begin
-\begin{longtable}[ht!]{ p{3cm} p{5cm} p{5cm} p{5cm} p{5cm} p{5cm} } %p{2cm}
+\begin{longtable}[ht!]{ m{2cm} m{4cm} m{6cm} m{5cm} m{4cm} m{3cm} } %p{2cm}
 	\hline \hline
-	1.References & 2.Objectives & 3.Methods & 4.Findings & 5.Significance & 6.Limitations \\
+\multicolumn{1}{c}{1.References} & \multicolumn{1}{c}{2.Objectives} & \multicolumn{1}{c}{3.Methods} & \multicolumn{1}{c}{4.Findings} & \multicolumn{1}{c}{5.Significance} & \multicolumn{1}{c}{6.Limitations} \\
 	\hline
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Contents begin
 %%%%%%%%% mason2018associations
 	%%%1.Reference%%%
-	mason2018associations & 
+	Mason, 2018 \textit{Lancet Public Health} & 
 	%%%2.Objectives%%%
-	To examine the association between accessibility of fast food and physical activity faclities and adults' obesity. & 
+	To examine the association between accessibility of fast food (FF) and physical activity (PA) faclities and adults' obesity. & 
 	%%%3.Methods%%%
-	\begin{tabular}{l} - Cross-sectional \\ 22 UK biobank \\ - 40-69 years old \\ - Y: Waist, BMI, body fat \\ - X: PA density 1000m, Fast food distance in quartile \\ - Z: Basic + deprivation, urbanization, residential density
-	\end{tabular} &
+	\begin{itemize}[noitemsep,topsep=0pt]
+		\item Cross-sectional  \item 22 UK biobank  \item 40-69 years old  \item Y: Waist, BMI, fat  \item X: PA 1000m, FF distance \item Z: Basic, deprivation, urbanization, residential density
+	\end{itemize} &
 	%%%4.Findings%%%
-	\begin{tabular}{l} - PA facilities density was associated with lower adiposity \\ - Fast food proximity was asssociated with adiposity \\ - Robust association after stratifed by sex and income  
-	\end{tabular} &
+	\begin{itemize}[noitemsep,topsep=0pt]
+		\item PA density was associated with lower adiposity \item FF proximity was asssociated with lower adiposity \item Robust association after stratifed by sex and income  
+		\end{itemize} &
 	%%%5.Significance%%%
-	\begin{tabular}{l} - Recreational facilities were found to be associated rather than urban designs \\ - Imply the change of facilities might be effective to lower the risk of obesity
-	\end{tabular} &
+		\begin{itemize}[noitemsep,topsep=0pt] \item Recreational facilities were found to be associated rather than urban designs \item Imply the change of facilities might be effective to lower the risk of obesity
+		\end{itemize} &
 	%%%6.Limitations%%%
-	\begin{tabular}{l} - No causality \\ - No mediator analysis
-	\end{tabular} \\
+		\begin{itemize}[noitemsep,topsep=0pt] \item No causality \item No mediator analysis
+		\end{itemize} \\
 	\hline
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %%%%%%%%% barrientos2017neighborhood
 	%%%1.Reference%%%
-	barrientos2017neighborhood & 
+	Barrientos, 2017 \textit{Am J Epidemiol} & 
 	%%%2.Objectives%%%
-	To examine the association between change of healthy food availablity (sub,ob), walkable environment (sub), and recreational resources (ob) and change of BMI among mid-older adults. &
+	To examine the association between change of healthy food (HF) availablity, walkable environment, and recreational resources measured by subjectively (sub) and objectively (ob) and change of BMI among mid-older adults. &
 	%%%3.Methods%%%
-	\begin{tabular}{l} - Longitudinal \\ 6 US urban areas \\ - 45-84 years old \\ - Y: BMI \\ - X: healthy food availability and walkable environment (subjective). Density of healthy food availability and recreational resources within 1 mile (objective) \\ - Z: Basic + residence duration (time-invariant). Marital status, cancer, income (time-varying) 
-	\end{tabular} &
+	\begin{itemize}[noitemsep,topsep=0pt] \item Longitudinal \item 6 US urban areas \item 45-84 years old \item Y: BMI \item X: HF availability and walkable environment (sub). Density of HF and Rec within 1 mile (ob) \item Z: Basic, residence duration (time-invariant). Marital status, cancer, income (time-varying) 
+	\end{itemize} &
 	%%%4.Findings%%%
-	\begin{tabular}{l} - Favorable change of both food and pa envrionment was associated with BMI reduction among obese/overweight people 
-	\end{tabular} &
+	\begin{itemize}[noitemsep,topsep=0pt] \item Favorable change of both food and pa envrionment was associated with BMI reduction among obese/overweight people 
+	\end{itemize} &
 	%%%5.Significance%%%
-	\begin{tabular}{l} - First study taking into account for changes in environment measured by both subjectively and objectively against the change of BMI
-	\end{tabular} &
+	\begin{itemize}[noitemsep,topsep=0pt] \item First study taking into account for changes in environment measured by both subjectively and objectively against the change of BMI
+	\end{itemize} &
 	%%%6.Limitations%%%
-	\begin{tabular}{l} - Missing confoundings, ie. deprevation \\ - No mediation analysis
-	\end{tabular} \\
+	\begin{itemize}[noitemsep,topsep=0pt] \item Missing confoundings, ie. deprevation \item No mediation analysis
+	\end{itemize} \\
 	\hline
 
 %%%%%%%%% hirsch2014change
 	%%%1.Reference%%%
-	hirsch2014change &
+	Hirsch, 2014 \textit{Am J Epidemiol} &
 	%%%2.Objectives%%%
-	To examine the association between change of built envrionment and change of walking among mid-older adults. &
+	To examine the association between change of built envrionment and change of walking for recreation (rec) and transportatio (tran) among mid-older adults. &
 	%%%3.Methods%%%
-	\begin{tabular}{l} - Longitudinal \\ 6 US urban areas \\ - 45-84 years old \\ - Y: Self report walking time for recreation and transportation \\ - X: Population density, retail area, residential area, social destinations within 1 mile from each resident, distance to bus stop, and street network ratio \\ - Z: Basic + residence duration (time-invariant). Marital status, employment, income, car-ownership, self-rated health, arthritis (time-varying) 
-	\end{tabular} &
+	\begin{itemize}[noitemsep,topsep=0pt] \item Longitudinal \item 6 US urban areas \item 45-84 years old \item Y: Self report walking time for rec and tran \item X: Population density, retail area, residential area, social destinations within 1 mile, distance to bus stop, and street network ratio \item Z: Basic, residence duration (time-invariant). Marital status, employment, income, car-ownership, self-rated health, arthritis (time-varying) 
+	\end{itemize} &
 	%%%4.Findings%%%
-	\begin{tabular}{l} - Higher residential use and a distance to bus stops were associated with a slightly increase in walking \\ - Incrases in te number of social destinations, walking destinations, and street connectivity were associated with greater increases in wallking for transportation \\ - Higher baseline levels of retail and walking destinations were associated with greater increases in leasure walking, but no changes in built environment measures were associated with leisure walking
-	\end{tabular} &
+	\begin{itemize}[noitemsep,topsep=0pt] \item Higher residential use and a distance to bus stops were associated with a increase in walking \item Increases in te number of social destinations, walking destinations, and street connectivity were associated with greater increases in wallking for tran \item No changes in built environment measures were associated with leisure walking
+	\end{itemize} &
 	%%%5.Significance%%%
-	\begin{tabular}{l} - First study taking into account for changes in environment measured by GIS against the change of walking
-	\end{tabular} &
+	\begin{itemize}[noitemsep,topsep=0pt] \item First study taking into account for changes in environment measured by GIS against the change of walking
+	\end{itemize} &
 	%%%6.Limitations%%%
-	\begin{tabular}{l} - Missing confoundings, ie. deprevation \\ - No mediation analysis
-	\end{tabular} \\
+	\begin{itemize}[noitemsep,topsep=0pt] \item Missing confoundings, ie. deprevation \item No mediation analysis
+	\end{itemize} \\
 	\hline
 
 \end{longtable}
