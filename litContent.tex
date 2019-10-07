@@ -196,7 +196,7 @@
 			\item[Confounders] Age, gender, income, education, NDI. 
 			\item[Statistical analysis] Multilevel logistic regression with individuals nested within their neighborhood. 
 			\item[Significance] This was one of the few studies examine the objectively measured walkability and health oucome, i.e., incidence of diabetes in a large cohort. 
-			\item[Conclusion] There was a siginficant association between walkable enviornment and incidence of type 2 diabetes after adjusting for neighborhood deprivation. However the association did not remain after further adjusting for individual socio-demographic characteristics. Future research should consider other potential risk factors for diabetes, such as traffic noise or air pollution which may come along with walkable environment. 
+			\item[Conclusion] There was a significant association between walkable enviornment and incidence of type 2 diabetes after adjusting for neighborhood deprivation. However the association did not remain after further adjusting for individual socio-demographic characteristics. Future research should consider other potential risk factors for diabetes, such as traffic noise or air pollution which may come along with walkable environment. 
 			\item[Takeaways] \mbox{}\par
 				\begin{itemize}
 					\item[$\clubsuit$] There is a need to examine whether individual and neighborhood socioeconomic characteristics may modify the association between the built environment and health related behaviors (Lovasi 2009). Because socioeconomically disadvantaged individuals may be less likely to benefit out from neighborhood envrionment. 
@@ -465,6 +465,7 @@
 					\item[$\clubsuit$] Previous research has shown that labor immigrants from Finland, the largenst immigrant group in Sweden most of whome immigrated for work have poorer health than other labor immigrants who have settled in Sweden.
 				\end{itemize}
 		\end{description}
+\end{itemize} %end of subsection
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -477,7 +478,7 @@
 			\item[Objectives]
 				To examine an association between neighborhood income and anxiety after adjusting for individual demographic, socio-economic and social characteristics.
 			\item[Setting and subjects] 
-				Sweden. National randome sample of the entire Swedish population: 15659 women and 15225 men.
+				Sweden. National random sample of the entire Swedish population: 15659 women and 15225 men.
 			\item[Outcome]
 				Self-reported anxiety. "Do you suffer from nervousness, uneasiness, or anxiety? 1. Yes, severe problems, 2. Yes, slight problems, 3. No."
 			\item[Exposure] 
@@ -486,9 +487,12 @@
 				Age (10y category), gender, marital status, immigrant status, social networks (1. having at least one close friend, 2. meeting friends and other acquantances, 3. exchanging favours with neighbors, 4. casual interaction with neighbors, 5. parents alive), housing tenure, employment, income.
 			\item[Statistical analysis] 
 				A log binomial model to estimatee prevalence ratios. Stepwise inclusion of individual variables with 4 models.
-			\item[Findings] There was an significant gradient association between neighborhood income and prevalence of anxiety when only adjusting for age and gender. However, the association dissapeared when other confounders were included.
-			\item[Strengths] 8 individual potential confounders collected by well-trained interviewers, which means that they are adequately measured and lower the risk of residual confoundings. Large randome sample. Neighborhood income was based on entire Swedish population but not the study population.
-			\item[Limitations] Non respondents (20\%) might have caused response bias. Anxiety is self-reported. Multilevel modeling was not possible as the number of individuals per SAMS was too samll to allow a correct calculation of the variance measure.
+			\item[Findings] 
+				There was an significant gradient association between neighborhood income and prevalence of anxiety when only adjusting for age and gender. However, the association dissapeared when other confounders were included.
+			\item[Strengths] 
+				8 individual potential confounders collected by well-trained interviewers, which means that they are adequately measured and lower the risk of residual confoundings. Large random sample. Neighborhood income was based on entire Swedish population but not the study population.
+			\item[Limitations] 
+				Non respondents (20\%) might have caused response bias. Anxiety is self-reported. Multilevel modeling was not possible as the number of individuals per SAMS was too samll to allow a correct calculation of the variance measure.
 			\item[Significance] 
 				The study examined the contextual effect of neighborhood income on anxiety, which is a most common mental disorders among working age group by using national level random samples with control of individual (compositional) effects.
 			\item[Conclusion] 
@@ -500,13 +504,170 @@
 					\item[$\clubsuit$] SALLS consists of 11 areas of investigation including demographic and socio-economic characteristics, health status and social environment.
 				\end{itemize}
 		\end{description}
-\end{itemize}
+\end{itemize} %end of subsection
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Longitudinal trend of exercise}
+\begin{itemize}
+	\item{\bf Leijon(2015) -- 16-63 years -- Longitudinal study -- Pop Health Met} 
+		\begin{description}
+			\item[Objectives]\mbox{}\par
+				To examine the longitudinal effect of age group and birth cohort on regular exercise.
+			\item[Setting and subjects]\mbox{}\par 
+				\begin{itemize}
+					\item Sweden. 
+					\item Data from 4 time points: 1980-1981, 1988-1989, 1996-1997, 2004-2005. 
+					\item Including all individuals who had answered at least once, completed with new individuals in the age span 16-23 years. 
+					\item Individuals 16-63 years were included.
+					\item The non-response rate varies between 20-25\% by time frame.
+					\item The response patterns for all 4 surveys were similar with regard to sex, age, place of living and salary.
+				\end{itemize}
+			\item[Outcome]\mbox{}\par
+				\begin{itemize}
+					\item Self-report excise. 0. never or now and then vs. 1. regularly more than once a week. 
+					\item Following original question was dichotomized. How much do you exercise in your leisure time? 1. I get practically no exercise atall, 2. I exercise occasionally, 3. I exercise regularly about once a week, 4. I exercise regularly twice a week, 5. I exercise regularly and vigorously at least twice a week.
+				\end{itemize}
+			\item[Exposure] \mbox{}\par
+				\begin{itemize}
+					\item Age at the time of the interview. 
+					\item Birth cohort (based on year of birth)
+				\end{itemize}
+			\item[Confounders] \mbox{}\par
+				\begin{itemize}
+					\item Gender, education level, BMI, smoking, self-reported health status.
+				\end{itemize}
+			\item[Statistical analysis]\mbox{}\par 
+				\begin{itemize}
+					\item Distribution of the explanatory variables.
+					\item Prevalence of exercise in the different confounders.
+					\item GLMM with random intercepts and random slopes to test the change in regular exercise over time according to age group and cohort.
+					\item Model I: age, cohort and the interaction age-by-cohort, age-squared, and cohort-squared.
+					\item Model II: adjusted for all confounders.
+				\end{itemize}
+			\item[Findings] \mbox{}\par
+				\begin{itemize}
+					\item The prevalence of regular exercise increased over time in all studied sub-groups among both men and women.
+					\item Differences related to educational level increased over time.
+					\item For women, all birth cohorts increased the prevalence of exercise.
+					\item For men, only the 3 oldest birth cohorts increased the prevalence of exercise, and the 3 youngest birth cohorts decreased.
+				\end{itemize}
+			\item[Strengths] \mbox{}\par
+				\begin{itemize}
+					\item Long period follow-up with repeased measurements.
+					\item SALLS is a simple random sample with a longitudinal panel with repeate measurements, which can represent the entire Swedish population.
+					\item Period effect can be excluded and substituted by the interaction between age nad birth cohort.
+				\end{itemize}
+			\item[Limitations] \mbox{}\par
+				\begin{itemize}
+					\item Outcome is self-report. Public awareness of the importance of physical activity may have increased during the study period.
+					\item Non-response might have overestimated the activity level as those inactive could havee bbeen overrepresented among non-responders.
+				\end{itemize}
+			\item[Significance]\mbox{}\par
+				\begin{itemize}
+					\item Identified an increase trend of physical activity in the population level.
+					\item Identified a difference of the increase trend of PA by educational level.
+					\item Identified a decrease trend of PA among middle age group. 
+				\end{itemize}
+			\item[Conclusion]\mbox{}\par
+				\begin{itemize}
+					\item The prevalence of PA has been increasing over time in Sweden. However, the difference inthe prevalence of PA by educational level has been increasing, and there is a negative trend among a certain younger birth cohort group. It is important to implement policy to reduce this potential inequity and target early age group to reduce the risk for ill health.
+				\end{itemize}
+			\item[Takeaways] \mbox{}\par
+				\begin{itemize}
+					\item[$\clubsuit$] Monitoring trends in populations is important for making it possible to identify and target certain groups in the population when planning interventions.
+				\end{itemize}
+		\end{description}
+\end{itemize} %end of subsection
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Longitudinal trend of mental health}
+\begin{itemize}
+	\item{\bf Calling(2017) -- 16-71 years -- Longitudinal study -- BMC Psychiatry} 
+		\begin{description}
+			\item[Objectives]\mbox{}\par
+				To examine the longitudinal change of prevalence of self-reported anxiety by different birth cohorts and age groups.
+			\item[Setting and subjects]\mbox{}\par 
+				\begin{itemize}
+					\item Sweden. 
+					\item Data from 4 time points: 1980-1981, 1988-1989, 1996-1997, 2004-2005.
+					\item Including all individuals who had answered at least once, completed with new individuals in the age span 16-23 years. 
+					\item Individuals 16-71 years were included.
+					\item Excluded individuals with missing values for weight or height (1\%), or PA.
+					\item Individuals with missing values for educational level was classified as the highest educational level.
+				\end{itemize}
+			\item[Outcome]\mbox{}\par
+				\begin{itemize}
+					\item Self-report anxiety. 0. no, 1. yes mild or severe.
+					\item Following original question was dichotomized. "Do you suffer from nervousness, uneasiness, r anxiety?". 0. no, 1. yes mild, 2. yes severe.
+				\end{itemize}
+			\item[Exposure] \mbox{}\par
+				\begin{itemize}
+					\item 3 time-related variables.
+					\item Assessment period.
+					\item Age at the time of the interview. 
+					\item Birth cohort (based on year of birth).
+				\end{itemize}
+			\item[Confounders] \mbox{}\par
+				\begin{itemize}
+					\item Gender, education level, urbanization, marital status, smoking, leisure time PA, BMI.
+					\item Included in the models as time-varying variables.
+				\end{itemize}
+			\item[Statistical analysis]\mbox{}\par 
+				\begin{itemize}
+					\item Distribution of the explanatory variables.
+					\item Prevalence of anxiety in the different confounders.
+					\item GLMM with random intercepts and random slopes to test the change in prevalence of anxiety over time according to age groups and birth cohorts.
+					\item The effect of time period does not need to be estimated for a longitudinal panel study, as age and time express the same effect.
+					\item Tested interactions with time and each confoundings, but none were significant.
+					\item Model I: age, cohort and the interaction age-by-cohort.
+					\item Model II: adjusted for all confounders.
+				\end{itemize}
+			\item[Findings] \mbox{}\par
+				\begin{itemize}
+					\item Overall prevalnce of self-reported anxiety increased except for the oldest age groups 64-71 years.
+					\item The highest increase was found in young adults 16-23 years.
+				\end{itemize}
+			\item[Strengths] \mbox{}\par
+				\begin{itemize}
+					\item Long period follow-up with repeased measurements.
+					\item SALLS is a simple random sample with a longitudinal panel with repeate measurements, which can represent the entire Swedish population.
+					\item Period effect can be excluded and substituted by the interaction between age nad birth cohort.
+					\item Longitudina mixed model made it possible to distinguish changes over time within individuals (age effects) from differences among individuals at baseline (cohort effects).
+				\end{itemize}
+			\item[Limitations] \mbox{}\par
+				\begin{itemize}
+					\item Outcome is self-report. Some have been misclassified or underreported. 
+					\item Non response might have underestimated the prevalence of anxiety as those with anxiety might have not responded.
+					\item Several other risidual confoundings such as immigration status, unemploynment, alcohol and drugs.
+				\end{itemize}
+			\item[Significance]\mbox{}\par
+				\begin{itemize}
+					\item Identified longitudinal trend of the prevalence of anxiety by controlling by age or birth cohort effects.
+					\item 
+				\end{itemize}
+			\item[Conclusion]\mbox{}\par
+				\begin{itemize}
+					\item The prevalence of anxiety has been increasing over time except older age group. Studies to disentangle the reasons of increased anxiety are needed.
+				\end{itemize}
+			\item[Takeaways] \mbox{}\par
+				\begin{itemize}
+					\item[$\clubsuit$] Recent US and Canadian surveys revealed that people born in the oldest and more recently born birth cohorts had higher levels of psychological distress than those cohorts born in mid-century.
+					\item[$\clubsuit$] Since 1979, there have been four main themes in the SALLS: social relations, work, health, physical environment. 
+					\item[$\clubsuit$] Due to increased educational demants at the labor markets, there are many young adults being unemployed.
+				\end{itemize}
+		\end{description}
+\end{itemize} %end of subsection
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Studies for older adults
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Studies for older adults}
 \subsection{BMI and mortality}
+\begin{itemize}	
 	\item{\bf Winter(2014) -- $\geq$65 years -- Meta-analysis -- Am J Clin Nutr} 
 		\begin{description}
 			\item[Objectives]
@@ -530,8 +691,30 @@
 				\end{itemize}
 		\end{description}
 
-
 \end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Health outocomes in general
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Burdens of various health outcomes}
+\subsection{Physical inactivity}
+\begin{itemize}
+	\item Physical inactivity is the fourth-leading cause of chronic disease and mortality such as heart disease, stroke, diabetes, and cancers, contributing to over 3 million preventable deaths annually worldwide (WHO. Global recommendations on physical activity for health. Geneva. WHO; 2010. p. 58.)
+	\item 60\% of adult population in the world does not reach the recommended level of physical activity (WHO. The World health report:2002:Reducing the riss, promoting healthy life. Geneva. WHO; 2002. p.248.)
+	\item Physical inactivity is the fifth leading risk facto for burden of disease for women in Sweden and the sixth leading risk factor for men (Agardh E, Moradi T, Allebeck P. The contribution of risk factors to the burden of disease in Sweden. A comparison between Swedish and wHO data. Lakartidningen. 2008.)
+	\item Exercise is defined as "planned, structured, and repetitive and purposive in the sense that the improvement or maintenance of one or more components of physical fitness is the objective", subcategory of physical activity (Physical Activity Guidelines Advisory Committee. Physical Activity Guidelines Advisory Committee Report, 2008.)
+\end{itemize}
+
+\subsection{Mental illness}
+\begin{itemize}
+	\item Mental illness including anxiety is oone of the leading causes of disability worldwide (WHO. The World Health report 2001. Mental health, new understanding, new hope. Geneva: 2001; Murracy CJ, Lopez AD. Global mortality, disability, and the contribution of risk factors: Global Burden of Disease Study. Lancet. 1997;349:1436-42.)
+	\item 
+	\item 
+	\item 
+\end{itemize}
+
+
 
 
 
